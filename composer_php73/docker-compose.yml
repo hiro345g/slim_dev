@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  composer_php73:
+    build:
+      context: .
+    container_name: "composer_php73"
+    image: composer_php73:0.1
+    tty: true
